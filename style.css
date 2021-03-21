@@ -5,6 +5,28 @@ body {
   height: 1500px;
 }
 
+
+.navbar nav ul {
+  list-style-type: none;
+  margin: 0; // espacio entre los bordes y el contenido
+  padding: 0px; //relleno
+  overflow: hidden; //para que desaparezca el overflow-quitar lo que sobra
+  background-color: #ffff;
+
+}
+
+.navbar nav ul li{
+  float:left;
+  padding:10px;
+
+}
+
+.navbar nav ul li a{
+  display: block;
+  text-decoration: none;
+
+}
+
 .cabecera {
   width: 1200px;
   height: 342px;
@@ -14,45 +36,17 @@ body {
   text-shadow: 1px 1px white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
 .contacto{
   body {
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
     background-color: #ab4493;
   }
+}
 
-  .contact_form {
+
+
+.contact_form {
     width: 460px;
     height: auto;
     margin: 80px auto;
