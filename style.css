@@ -18,12 +18,12 @@ body {
 .navbar nav ul li{
   float:left;
   padding:10px;
-
 }
 
 .navbar nav ul li a{
   display: block;
   text-decoration: none;
+
 
 }
 
